@@ -1,0 +1,1 @@
+//q pointing to some unknown memory

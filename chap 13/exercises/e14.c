@@ -1,0 +1,1 @@
+//bütün değerler 1 azalıyor.

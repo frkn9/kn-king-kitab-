@@ -1,0 +1,1 @@
+//amacımıza ulaştık gibi ama kod doğru cevabı vermiyor.
