@@ -3,7 +3,7 @@
         "stdlib.h": "c",
         "stdio.h": "c",
         "type_traits": "c",
-        "13.C": "cpp",
+        "13.C": "c",
         "read_line.h": "c",
         "string.h": "c"
     }
