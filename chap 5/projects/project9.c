@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(){
+int main(void) {
 
     int d1,m1,y1,d2,m2,y2;
     printf("Enter first date (dd/mm/yy) ");
@@ -14,7 +14,7 @@ int main(){
         printf("%d/%d/%d comes first", d2,m2,y2);
     else if (m1<m2)
         printf("%d/%d/%d comes first", d1,m1,y1);
-     else if (m2<m1)
+    else if (m2<m1)
         printf("%d/%d/%d comes first", d2,m2,y2);
     else if (d1<d2)
         printf("%d/%d/%d comes first", d1,m1,y1);
