@@ -4,6 +4,7 @@
         "stdio.h": "c",
         "type_traits": "c",
         "13.C": "cpp",
-        "read_line.h": "c"
+        "read_line.h": "c",
+        "string.h": "c"
     }
 }

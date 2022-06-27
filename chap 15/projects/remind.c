@@ -7,6 +7,7 @@
 
 
 int main(void) {
+
     char reminders[MAX_REMIND][MSG_LEN+3];
     char day_str[3], msg_str[MSG_LEN + 1];
     int day, i, j, num_remind = 0;
