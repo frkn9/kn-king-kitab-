@@ -1,20 +1,20 @@
-#include <stdio.h>
+
 
 struct date {
     int day, month, year;
-};
+}date_1, date_2;
 int day_of_year(struct date d);
 
 int compare_dates(struct date d1, struct date d2);
 
-int main(void) {
+/*int main(void) {
 
     struct date d1 = {.day = 12, .month = 6}, d2 = {.day = 19, .month = 8};
 
     printf("%d", compare_dates(d1, d2));
     
 
-}
+}*/
 
 int day_of_year(struct date d) {
     int day;
