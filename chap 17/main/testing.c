@@ -1,25 +1,30 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include <string.h>
-#include <ctype.h>
+#include <stdlib.h>
 
-struct student_data {
-    char name[15];
-    char surname[10];
-    int no;
-};
+/* strcat function 
+char* concat(const char* s1, const char* s2) {
 
+    char* result;
 
-int main(void) {    
+    result = (char*) malloc( (sizeof(char) * (strlen(s1) + strlen(s2)) ) + 1 );
+    if (result == NULL) {
+        printf("Error: malloc failed in concat\n");
+        exit(EXIT_FAILURE);
+    }
 
-    struct student_data* str_ptr;
-
-    struct student_data student1;
-
-    str_ptr = &student1;
-
-    scanf("%s%s%d", student1.name, student1.surname, &student1.no);
-
-    printf("%s\n%s\n%d", str_ptr ->name, str_ptr ->surname, str_ptr ->no);
+    strcpy(result, s1);
+    strcat(result, s2);
+    return result;
 }
+*/
+int main(void) {
 
+    int n;
+    int* a;
+
+    a = (int*) malloc(sizeof(int) * n);
+
+
+
+}

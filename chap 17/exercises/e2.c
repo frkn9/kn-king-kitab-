@@ -2,25 +2,13 @@
 #include <stdlib.h>
 #include <string.h>
 
-
-char* duplicate(const char *p);
-
-int main(void) {
-    char *str1 = "asdadaaaaa987";
-    char *str2;
-
-    str2 = duplicate(str1);
-
-    printf("%s", str2);
-
-
-}
-
-char* duplicate(const char *p) {
-
-    char* temp;
-
-    strcpy(temp, p);
-
-    return temp;
+char* duplicate(char* p) {
+    char* q;
+    q = malloc(sizeof(char) * (strlen(p) + 1));
+    if(q == NULL)
+        return NULL;
+    else {
+        strcpy(q, p);
+        return q;
+    }
 }
